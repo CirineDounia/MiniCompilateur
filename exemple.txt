@@ -1,0 +1,31 @@
+Program celine_ama
+PDEC
+x | z | i : Pint;
+x : Pint;
+y : Pfloat;
+l : Pint;
+h : Pfloat;
+@define Pint j = 7.6;
+@define Pfloat r = 5.07;
+PINST
+Begin
+// ceci est un commentaire
+i <- 0;
+y <- 5.12;
+t <- 5;
+x <- 8;
+y<- 6;
+y <- x / 0;
+/* ceci est 
+un commentaire */
+l <- 10/i;
+h <- 5.8;
+z <- (h+ 7 + l )/i;
+FOR i<- 1 WHILE 5
+DO
+DO i <- 5 ; : IF ( h == 7.2 | z != 11.5 )
+ELSE z <- 6;
+ENDIF
+ENDFOR
+x <- 5;
+End
